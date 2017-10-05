@@ -1,5 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
+
+import { ROUTES } from './routing/routing.module';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -15,6 +18,12 @@ import { TrucksListComponent } from './home/trucks/trucks-list/trucks-list.compo
 import { TrucksItemComponent } from './home/trucks/trucks-list/trucks-item/trucks-item.component';
 import { ServicesListComponent } from './home/services-list/services-list.component';
 import { ServiceItemComponent } from './home/services-list/service-item/service-item.component';
+
+
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -34,7 +43,8 @@ import { ServiceItemComponent } from './home/services-list/service-item/service-
     ServiceItemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]
