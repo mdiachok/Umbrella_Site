@@ -19,9 +19,21 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "./assets/css/popuo-box.css",
+        "./assets/css/owl.carousel.css",
+        "./assets/css/style.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "./assets/js/easing.js",
+        "./assets/js/jquery.magnific-popup.js",
+        "./assets/js/move-top.js",
+        "./assets/js/owl.carousel.js",
+        "./assets/js/responsiveslides.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

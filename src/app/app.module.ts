@@ -10,7 +10,7 @@ import { NewsListComponent } from './home/blog/news-list/news-list.component';
 import { NewsItemComponent } from './home/blog/news-list/news-item/news-item.component';
 import { CompaniesListComponent } from './home/companies-list/companies-list.component';
 import { CompanyProfileComponent } from './home/companies-list/company-profile/company-profile.component';
-import { TrucksTypeListComponent } from './home/companies-list/company-profile/trucks-type-list/trucks-type-list.component';
+import { TrucksTypeListComponent } from './home/trucks/trucks-type-list/trucks-type-list.component';
 import { TrucksListComponent } from './home/trucks/trucks-list/trucks-list.component';
 import { TrucksItemComponent } from './home/trucks/trucks-list/trucks-item/trucks-item.component';
 import { ServicesListComponent } from './home/services-list/services-list.component';
