@@ -32,7 +32,8 @@
         "./assets/js/jquery.magnific-popup.js",
         "./assets/js/move-top.js",
         "./assets/js/owl.carousel.js",
-        "./assets/js/responsiveslides.min.js"
+        "./assets/js/responsiveslides.min.js",
+        "./assets/js/main.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
