@@ -1469,12 +1469,13 @@ if ( typeof Object.create !== "function" ) {
     afterLazyLoad: false
 
   };
+
 })( jQuery, window, document );
 
 $("#owl-demo").owlCarousel({
   items : 3,
   lazyLoad : true,
-  autoPlay : true,
+  autoPlay : true
 });
 $("#owl-demo1").owlCarousel({
   items : 1,
@@ -1489,4 +1490,5 @@ $("#owl-demo2").owlCarousel({
   pagination : false
 });
 
-
+var y = $("#owl-demo1".owlCarousel);
+console.log(y);
