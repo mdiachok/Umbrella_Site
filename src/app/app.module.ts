@@ -19,12 +19,6 @@ import { TrucksItemComponent } from './home/trucks/trucks-list/trucks-item/truck
 import { ServicesListComponent } from './home/services-list/services-list.component';
 import { ServiceItemComponent } from './home/services-list/service-item/service-item.component';
 
-
-
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
